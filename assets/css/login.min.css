@@ -43,6 +43,9 @@
 	  color: #323c47;
 	  width:80%;
 }
+.login .content .form-control.width50{
+	width:50%;
+}
 .login .content .form-control:active, .login .content .form-control:focus {
     border: 0px solid #c3ccda;
 }

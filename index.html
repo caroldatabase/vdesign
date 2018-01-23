@@ -9,8 +9,8 @@
         <link href="assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/components.min.css" rel="stylesheet" id="style_components" type="text/css" />
-        <link href="assets/css/login.css" rel="stylesheet" type="text/css" />
         <link href="assets/css/login.min.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/login.css" rel="stylesheet" type="text/css" />
         </head>
 	
     <body class="login">
@@ -40,8 +40,8 @@
         <div class="content">
             <!-- BEGIN LOGIN FORM -->
             <form class="login-form" action="index.html" method="post">
-                <h1><img src="assets/img/small-logo.png"><span>Salesplus</span></h1>
-				<h3>Sign in to Saleplus</h3>
+                <h1><img src="assets/img/small-logo.png"><span>Vendimation</span></h1>
+				<h3>Sign in to Vendimation</h3>
 				<p class="comment">We're happy you're here.</p>
                 <div class="alert alert-danger display-hide">
                     <button class="close" data-close="alert"></button>
@@ -56,16 +56,21 @@
                     <input class="form-control form-control-solid placeholder-no-fix" type="password" autocomplete="off" placeholder="Password" name="password" /> 
 					<div class="forgot"><a href="page_user_forgot_1.html">Forgot?</a></div>
 					</div>
-					<p class="savePass"><input type="checkbox" id="chkBox"> <label for="chkBox">Save my password</label></p>
+					<div class="savePass"><input type="checkbox" id="chkBox"> <label for="chkBox">Save my password</label></div>
                 <div class="panelBtn">
-					<div class="pull-left"><input type="submit" value="LOGIN" class="btn-login" />
+					<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="row">
+					<input type="submit" value="LOGIN" class="btn-login" />
 					</div>
-					<div class="pull-left">
-					<span class="or">Or</span>
+					</div>
+					<div class="col-md-6 col-sm-6 col-xs-12">
+					<div class="row">
+					<span class="or hidden-xs">Or</span>
 					<ul>
 						<li><a href="#" class="gplus"><img src="assets/img/gplus.png"></a></li>
 						<li><a href="#" class="fb"><img src="assets/img/fb.png"></a></li>
 					</ul>
+					</div>
 					</div>
 				</div>
 				<div class="clearfix"></div>
